@@ -1,0 +1,16 @@
+{
+  "note": "All counts are invented. Recorded outcomes and ceiling assumptions are separate.",
+  "observed": [
+    {"label": "baseline", "confirmed": 24, "prepared": 24, "handed_off": 20},
+    {"label": "changed", "confirmed": 24, "prepared": 24, "handed_off": 14}
+  ],
+  "scenarios": [
+    {"label": "baseline", "confirmed": 24, "prepared": 24, "passed": 20, "eligible_opening": 0, "authorize": 20, "pickup": 22},
+    {"label": "changed", "confirmed": 24, "prepared": 24, "passed": 20, "eligible_opening": 0, "authorize": 14, "pickup": 22},
+    {"label": "prep_push", "confirmed": 24, "prepared": 30, "passed": 20, "eligible_opening": 0, "authorize": 14, "pickup": 22},
+    {"label": "extra_signer", "confirmed": 24, "prepared": 24, "passed": 20, "eligible_opening": 0, "authorize": 18, "pickup": 22},
+    {"label": "failed_batch", "confirmed": 24, "prepared": 24, "passed": 12, "eligible_opening": 0, "authorize": 18, "pickup": 22},
+    {"label": "carryover", "confirmed": 24, "prepared": 24, "passed": 12, "eligible_opening": 4, "authorize": 18, "pickup": 22},
+    {"label": "counter_loss", "confirmed": 24, "prepared": 24, "passed": 20, "eligible_opening": 0, "authorize": 14, "pickup": 9}
+  ]
+}
